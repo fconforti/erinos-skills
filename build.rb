@@ -4,7 +4,7 @@ require "json"
 require "digest"
 require "fileutils"
 
-SKILLS_DIR = File.expand_path("skills", __dir__)
+SKILLS_DIR = File.expand_path("registry", __dir__)
 DIST_DIR   = File.expand_path("dist", __dir__)
 BASE_URL   = "https://skills.erinos.ai"
 
